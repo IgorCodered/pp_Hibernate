@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
         UserServiceImpl service = new UserServiceImpl();
-//        service.createUsersTable();
-        service.dropUsersTable();
+        service.createUsersTable();
+//        service.dropUsersTable();
     }
 }
 
