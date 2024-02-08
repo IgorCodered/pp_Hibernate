@@ -7,7 +7,7 @@ public class Main {
         // реализуйте алгоритм здесь
         UserServiceImpl service = new UserServiceImpl();
 //        service.createUsersTable();
-//        service.dropUsersTable();
+        service.dropUsersTable();
     }
 }
 
